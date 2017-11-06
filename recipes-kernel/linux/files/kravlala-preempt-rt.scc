@@ -1,0 +1,13 @@
+define KMACHINE kravlala
+
+define KARCH arm
+
+include ktypes/preempt-rt/preempt-rt.scc
+define KTYPE standard/beaglebone
+branch kravlala
+
+include kravlala.scc
+
+# default policy for preempt-rt kernels
+include features/latencytop/latencytop.scc
+include features/profiling/profiling.scc

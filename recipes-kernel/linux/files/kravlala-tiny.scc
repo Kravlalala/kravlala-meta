@@ -1,0 +1,9 @@
+define KMACHINE kravlala
+
+define KARCH arm
+
+include ktypes/tiny/tiny.scc
+define KTYPE standard/beaglebone
+branch kravlala
+
+include kravlala.scc

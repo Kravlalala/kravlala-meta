@@ -1,0 +1,5 @@
+kconf hardware kravlala.cfg
+include features/usb-net/usb-net.scc
+
+kconf hardware kravlala-user-config.cfg
+include kravlala-user-patches.scc
